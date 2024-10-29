@@ -1,8 +1,9 @@
 //import { BasicFunctions, BasicTypes } from "./typescript";
 
 //import Counter from "./components/Counter";
-import { LoginPages } from "./components";
+import { FormsPage, LoginPages } from "./components";
 import CounterWidthHooks from "./components/CounterWithHook";
+import UsersPage from "./components/UsersPage";
 
 function App() {
   return (
@@ -12,9 +13,13 @@ function App() {
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
       {/* <Counter /> */}
-      <CounterWidthHooks />
+      {/* <CounterWidthHooks />
       <br />
-      <LoginPages />
+      <LoginPages /> */}
+
+      {/* <UsersPage /> */}
+
+      <FormsPage />
     </main>
   );
 }
